@@ -1,0 +1,226 @@
+html,
+body {
+	height: 100%;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+html,
+body,
+p,
+ul,
+li,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+.main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.center-div {
+	width: 1200px;
+}
+
+/* 登录注册 */
+.register-container {
+	height: 30px;
+	background-color: #f8f8f8;
+}
+
+.register-container>div.center-div {
+	display: flex;
+	/* 放在结尾（右边） ，网页元素默认，从左上方布局开始*/
+	justify-content: flex-end;
+}
+
+.reg-right {
+	display: flex;
+}
+
+.reg-right>span {
+	margin: 0 10px;
+	line-height: 30px;
+	color: #fe1923;
+	font-weight: bold;
+}
+
+.reg-right>.text-container {
+	line-height: 30px;
+}
+
+.reg-right>.text-container>span {
+	margin: 0 10px;
+	color: #aaa;
+}
+
+.num {
+	color: #FE1923;
+}
+
+
+
+
+/* 首页 */
+.main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-container {
+	display: flex;
+	justify-content: center;
+	height: 55px;
+	width: 100%;
+	background-color: #1184DA;
+}
+
+.nav {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	color: #fff;
+}
+
+.nav-list>li {
+	position: relative;
+	padding: 0 25px;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+.nav-list>li>a {
+	color: #fff;
+}
+
+.nav-list>li:hover {
+	background-color: #2a95e5;
+}
+
+.active {
+	background-color: #2a95e5;
+}
+
+.search-box>a {
+	color: #AAAAAA;
+}
+
+
+
+
+.whole {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+
+.whole>div {
+	display: flex;
+	width: 1200px;
+}
+
+/* 会员 */
+.member {
+	width: 20%;
+	padding: 20px 0;
+	background-color: #FFFFFF;
+}
+
+
+/* 用户 */
+.user {
+	display: flex;
+	padding: 20px 0;
+	flex: 1;
+}
+
+.user>img {
+	width: 260px;
+	height: 260px;
+	padding: 20px;
+	background-color: #eeeeee;
+	border-radius: 5px;
+}
+
+.user-box {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #EEEEEE;
+}
+
+.user-top {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+
+.user-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.user-bottom>div {
+	flex: 1;
+	margin: 0 auto;
+	background-color: #F7F7F7;
+	box-sizing: border-box;
+}
+
+.user-bottom>div>p {
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.user-num {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+}
+
+.user-text1 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+}
+
+.user-text2 {
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+/* 底部 */
+.end>div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	padding: 20px 0 0 0;
+	background-color: #383838;
+}
+.end-text {
+	color: #EEEEEE;
+}

@@ -1,0 +1,249 @@
+/* 公共样式start */
+html,
+body,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+}
+
+.center-div {
+	width: 1200px;
+}
+
+
+.more {
+	display: block;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #007AFF;
+	border: 1px solid #007AFF;
+	border-radius: 3px;
+}
+
+
+
+/* 公共样式end */
+
+
+/* 登录注册start */
+.register-container {
+	height: 30px;
+	background-color: #f8f8f8;
+}
+
+
+
+.register-container>div.center-div {
+	display: flex;
+	/* 放在结尾（右边） ，网页元素默认，从左上方布局开始*/
+	justify-content: flex-end;
+}
+
+.reg-right {
+	display: flex;
+}
+
+.reg-right>span {
+	margin: 0 10px;
+	line-height: 30px;
+	color: #fe1923;
+	font-weight: bold;
+}
+
+.reg-right>.text-container {
+	line-height: 30px;
+}
+
+.reg-right>.text-container>span {
+	margin: 0 10px;
+	color: #aaa;
+}
+
+.num {
+	color: #FE1923;
+}
+
+
+
+
+/* 导航栏start */
+
+.nav-container {
+	height: 55px;
+	background-color: #1184DA;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	color: #fff;
+}
+
+.nav-list>li {
+	position: relative;
+
+	padding: 0 25px;
+	line-height: 55px;
+	cursor: pointer;
+}
+
+.nav-list>li>a {
+	color: #fff;
+}
+
+.nav-list>li:hover {
+	background-color: #2a95e5;
+}
+
+.active {
+	background-color: #2a95e5;
+}
+
+.search-box>a {
+	color: #AAAAAA;
+}
+
+
+/* 背景图 */
+.background-container>img {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+
+/* 搜索框 */
+.bar7 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #2a95e5;
+	height: 100px;
+}
+
+.bar7>form>input {
+	width: 500px;
+	height: 45px;
+	border-radius: 5px;
+}
+
+.bar7>form>a {
+	color: #EEEEEE;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
+/*美食展示 */
+.food-container {
+	background-color: #fafafa;
+}
+
+.food {
+	padding: 80px 0;
+}
+
+.food-menu {
+	text-align: center;
+	padding: 20px;
+}
+
+.food-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.food-item {
+	padding: 20px 10px;
+	width: 285px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+
+.food-item:hover {
+	box-shadow: 0px 3px 3px 3px #e1e1e1;
+}
+
+.food-img {
+	width: 100%;
+	height: 175px;
+	transition: all 0.5s linear;
+}
+
+.food-item:hover .food-img {
+	transform: scale(1.2);
+}
+
+.food-info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.food-title {
+	margin: 30px 0;
+}
+
+.food-num {
+	color: #AAAAAA;
+}
+
+.food-more {
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+
+/* 底部 */
+.end>div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+	padding: 20px 0 0 0;
+	background-color: #383838;
+}
+
+.end-text {
+	color: #EEEEEE;
+}
